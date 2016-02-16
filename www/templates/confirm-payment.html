@@ -1,0 +1,28 @@
+<ion-view title="Confirm Payment">
+  <ion-nav-bar class="bar bar-positive">
+    <ion-nav-back-button></ion-nav-back-button>
+    <h1 class="title">Confirm Payment</h1>
+  </ion-nav-bar>
+  <ion-content class="content-payment">
+
+    <div class="full-input">
+      <input type="text" placeholder="Credit Card Number">
+      <input type="text" placeholder="Cardholder Name">
+    </div>
+
+    <div class="short-input">
+      <input type="text" placeholder="MM/YY">
+      <input class="cvv" type="text" placeholder="CVV">
+    </div>
+
+    <div class="full-input">
+      <input type="text" placeholder="Phone Number(Optional)">
+    </div>
+
+    <p>*Note: You won't be charge till the task in finished</p>
+
+    <button ng-click="calling()" class="button button-assertive">SAVE & HIRE</button>
+
+  </ion-content>
+
+</ion-view>

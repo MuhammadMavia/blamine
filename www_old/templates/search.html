@@ -1,0 +1,58 @@
+<ion-view title="Find Interpreter">
+  <ion-header-bar class="bar-positive">
+    <button class="button button-icon icon ion-navicon" menu-toggle="left"></button>
+    <h1 class="title">Find Interpreter</h1>
+  </ion-header-bar>
+  <ion-content style="overflow: auto;">
+    <div class="search-header">
+
+      <div class="row r-1">
+        <span class="col-50 text">I SPEAK</span>
+        <span class="col-50">
+          <img src="./img/flag/Pakistan_flag_large.png">
+          <select class="select ">
+            <option selected>Pakistan</option>
+            <option>India</option>
+            <option>England</option>
+          </select>
+        </span>
+      </div>
+      <div class="row r-1">
+        <span class="col-50 text">I NEED</span>
+        <span class="col-50">
+          <img src="./img/flag/download.png">
+          <select class="select ">
+            <option selected>Turkey</option>
+            <option>India</option>
+            <option>England</option>
+          </select>
+        </span>
+      </div>
+      <div class="row r-1">
+        <span class="col-50 text">IN</span>
+        <span class="col-50">
+          <select class="select ">
+            <option selected>Business</option>
+            <option>India</option>
+            <option>England</option>
+          </select>
+        </span>
+      </div>
+
+      <button class="button button-assertive">SEARCH</button>
+
+    </div>
+
+    <div class="search-body">
+
+      <div class="button-bar s-btn-bar">
+        <button ui-sref="app.search.favorite" ui-sref-active="active" class="button active">Favorite Interpreter</button>
+        <button ui-sref="app.search.featured" ui-sref-active="active" class="button active">Featured Interpreter</button>
+      </div>
+
+      <ui-view name="searchContent"></ui-view>
+    </div>
+
+
+  </ion-content>
+</ion-view>

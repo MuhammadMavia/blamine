@@ -1,0 +1,89 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left">
+
+    <ion-content style="overflow: auto" class="menu-content-bg">
+      <div class="menu-had">
+
+        <div class="row">
+        <span class="col-25 menu-icon-1">
+          <a class="button button-icon icon ion-ios-plus-empty"></a>
+        </span>
+
+          <div class="col-50">
+            <div class="menu-img-box">
+              <img src="./img/man.jpg">
+            </div>
+          </div>
+
+        <span class="col-25 menu-icon-2">
+          <a class="button button-icon icon ion-email"></a>
+        </span>
+        </div>
+
+        <b>Kevin</b>
+
+        <p>
+          96% Positive Rating(25) <br>
+          Verified Interpret
+        </p>
+      </div>
+
+      <div class="menu-body bg-positive">
+        <div class="list">
+
+          <a ui-sref-active="menu-item-active" class="item item-icon-left  menu-item-inactive menu-item-active"
+             menu-close ui-sref="app.search">
+            <i class="icon ion-android-search"></i>
+            <span>Search For Interprets</span>
+          </a>
+
+          <a ui-sref-active="menu-item-active" class="item item-icon-left  menu-item-inactive menu-item-active"
+             menu-close ui-sref="app.list">
+            <i class="icon ion-android-favorite-outline"></i>
+            <span>Favorite</span>
+            <span class="badge badge-assertive">14</span>
+          </a>
+
+          <a ui-sref-active="menu-item-active" class="item item-icon-left menu-item-inactive menu-item-active"
+             menu-close>
+            <i class="icon ion-ios-personadd"></i>
+            <span>Invite a Friend</span>
+          </a>
+
+          <a ui-sref-active="menu-item-active" class="item item-icon-left  menu-item-inactive menu-item-active"
+             menu-close>
+            <i class="icon ion-loop"></i>
+            <span>Feedback</span>
+          </a>
+
+          <a ui-sref-active="menu-item-active" class="item item-icon-left  menu-item-inactive menu-item-active"
+             menu-close>
+            <i class="icon ion-ios-help-outline"></i>
+            <span>Help</span>
+          </a>
+
+          <a ui-sref-active="menu-item-active" class="item item-icon-left  menu-item-inactive menu-item-active"
+             menu-close>
+            <i class="icon ion-ios-gear-outline"></i>
+            <span>Settings</span>
+          </a>
+
+
+        </div>
+
+        <div menu-close class="menu-sign-out">
+
+          <button ui-sref="login-1" class="button icon-left ion-power button-clear" style="color: #fff">SIGN OUT
+          </button>
+
+        </div>
+
+      </div>
+
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>

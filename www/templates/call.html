@@ -1,0 +1,110 @@
+<style>
+
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<ion-view title="Call">
+  <ion-content style="overflow: auto">
+
+    <div class="call-header" ng-class="{'when-show-msg-box':msgContent}">
+      <div class="caller-option-box">
+        <!--<div class="call-option">
+          <span>04:35:12</span>
+          &lt;!&ndash;<a class="icon ion-videocamera"></a>
+          <a class="icon ion-ios-mic"></a>
+
+          <div class="icon ion-ios-telephone" ui-sref="review"></div>&ndash;&gt;
+        </div>-->
+        <span class="call-time-2">04:35:12</span>
+
+        <div class="" ng-class="{'call-round-btn-with-msg':msgContent,'call-round-btn':!msgContent}">
+          <button class=" button-energized icon"
+          ng-class="{'ion-ios-videocam':!msgContent,'ion-ios-videocam-outline':msgContent}"ion-ios-videocam
+          ></button>
+      <!--    <button ng-if="msgContent" class=" button-energized icon videocam_off">
+            <i class="material-icons">videocam_off</i>
+          </button>-->
+         <!-- <button ng-if="!msgContent" class=" button-energized icon ">
+            <i class="material-icons">videocam</i>
+          </button>-->
+          <button class="button-energized icon"
+                  ng-class="{'ion-ios-mic':!msgContent,'ion-ios-mic-outline':msgContent}"></button>
+          <button ng-if="!msgContent" class="button-energized icon ion-volume-high"></button>
+          <button class=" button-energized icon ion-email"
+                  ng-class="{'ion-ios-chatbubble':!msgContent,'ion-ios-chatbubble-outline':msgContent}"
+                  ng-click="showMessage()"></button>
+          <br ng-if="!msgContent">
+          <button ui-sref="review"
+                  ng-class="{'call-hangup-btn-with-msg':msgContent,'rotate-phone-with-msg':!msgContent}"
+                  class="button button-assertive icon ion-ios-telephone call-hangup-btn rotate-phone"></button>
+        </div>
+      </div>
+      <div class="caller-img-box">
+        <img src="./img/man.jpg">
+      </div>
+    </div>
+
+    <div class="call-body" ng-if="msgContent">
+      <div class="row me">
+        <div class="col-80">
+          <div class="card">
+            Lorem ipsum dolor sit amet, consectetur Atque dolor fugiat maxime perferendis veniam. Blanditiis dolor
+            dolorum ei ibusdam suscipit! Amet rerum?
+          </div>
+        </div>
+        <div class="col-20">
+          <div class="card">
+            <img src="./img/man.jpg">
+          </div>
+        </div>
+      </div>
+      <div class="row you">
+        <div class="col-20">
+          <div class="card">
+            <img src="./img/man2.jpg">
+          </div>
+        </div>
+        <div class="col-80">
+          <div class="card">
+            Lorem ipsum dolor sit amet facere iste maiores modi
+          </div>
+        </div>
+      </div>
+      <div class="row you">
+        <div class="col-20">
+          <div class="card">
+            <img src="./img/man2.jpg">
+          </div>
+        </div>
+        <div class="col-80">
+          <div class="card">
+            Lorem ipsum dolor sit amet facere iste maiores modi
+            Lorem ipsum dolor sit amet facere iste maiores modi
+          </div>
+        </div>
+      </div>
+      <div class="row me">
+        <div class="col-80">
+          <div class="card">
+            Lorem ipsum dolor sit
+          </div>
+        </div>
+        <div class="col-20">
+          <div class="card">
+            <img src="./img/man.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </ion-content>
+
+  <ion-footer-bar align-title="left" class="item-input-inset bar-positive" ng-if="msgContent">
+    <button class="button button-icon icon ion-ios-camera-outline"></button>
+    <label class="item-input-wrapper">
+      <input type="search" placeholder="Message">
+    </label>
+    <button class="button button-icon icon ion-paper-airplane"></button>
+    <!--<button class="button button-clear">Send</button>-->
+  </ion-footer-bar>
+
+</ion-view>

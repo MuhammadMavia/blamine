@@ -1,0 +1,1118 @@
+body {
+  height: 100%;
+}
+
+ion-view {
+  height: 100%;
+}
+
+ion-nav-view {
+  /* height: 50%;*/
+}
+
+.item-thumbnail-left > img:first-child,
+.item-thumbnail-left .item-image,
+.item-thumbnail-left .item-content > img:first-child,
+.item-thumbnail-left .item-content .item-image {
+  max-width: 70px;
+  max-height: 70px;
+}
+
+.tab-item {
+  max-width: 100%;
+}
+
+.favorite-btn {
+  font-size: 64px;
+  color: red;
+}
+
+.favorite-btn:hover {
+  color: red;
+}
+
+/* Menu CSS*/
+ion-content {
+  overflow: auto;
+}
+
+.menu-content-bg {
+  background: #5dade2;
+}
+
+.menu-had {
+  color: #ffffff;
+  border-bottom: 2px solid #1276ab;
+  text-align: center;
+  background: #1798db;
+}
+
+.menu-had b {
+  font-size: 22px;
+  padding: 0 0 7% 0;
+}
+
+.menu-img-box {
+  margin-top: 10%;
+  height: 125px;
+  width: 125px;
+  display: inline-block;
+  border: 6px solid #1276ab;
+  border-radius: 100%;
+}
+
+.menu-img-box img {
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+}
+
+.menu-icon-1 {
+  text-align: right;
+}
+
+.menu-icon-1 a, .menu-icon-2 a {
+  color: #fff;
+  margin-top: 130px;
+}
+
+.menu-icon-2 {
+  text-align: left;
+}
+
+.menu-body {
+  background: #5dade2;
+}
+
+.menu-sign-out {
+  margin-right: 5%;
+  float: right;
+}
+
+.menu-sign-out button {
+  color: #fff;
+}
+
+.menu-item-inactive {
+  border: none;
+  background: #5dade2;
+  border-left: 7px solid transparent;
+}
+
+.menu-item-inactive .icon, .menu-item-inactive span {
+  color: #ccc;
+}
+
+.menu-item-active {
+  border: none;
+  background: #5dade2;
+  border-left: 7px solid #ff0000;
+
+}
+
+.menu-item-active .icon, .menu-item-active span {
+  color: #fff7f4;
+}
+
+/*Payment Method*/
+.payment-header {
+  text-align: center;
+  padding-top: 5vh;
+}
+
+.master-img {
+  text-align: right;
+  margin-right: 18px;
+}
+
+.master-img img {
+  width: 15vh;
+  height: 15vh;
+  border-radius: 100%
+}
+
+.visa-img {
+  text-align: left;
+  margin-top: 5vh;
+}
+
+.visa-img img {
+  width: 15vh;
+  height: 5vh;
+}
+
+.payment-list-item {
+  padding-bottom: 3vh;
+  padding-right: 5%;
+  padding-left: 5%;
+  margin-top: 4vh;
+}
+
+.list-detail-key {
+  color: #ccc;
+}
+
+.list-detail-value {
+  text-align: right;
+  color: #000000;
+}
+
+.list-detail-key, .list-detail-value {
+  font-size: 100%;
+}
+
+.payment-list-item div {
+  border-color: #cccccc;
+  border-right: none;
+  border-left: none;
+  padding: 1vh 0 1vh 0;
+}
+
+.payment-list-item button {
+  width: 100%;
+  margin-top: 5vh;
+}
+
+.norton-logo {
+  font-size: 80%;
+  padding-top: 3vh;
+  text-align: center;
+  display: block;
+}
+
+.norton-logo img {
+  width: 30vh;
+  height: 15vh;
+}
+
+/* Confirm Payment CSS*/
+.content-payment {
+  text-align: center;
+  overflow: auto;
+}
+
+.full-input {
+  text-align: center;
+}
+
+.full-input input {
+  margin-top: 2vh;
+  border: none;
+  border-bottom: 1px solid #5dade2;
+  display: inline-block;
+  width: 90%;
+}
+
+.short-input {
+  text-align: left;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.short-input input {
+  margin-top: 4vh;
+  width: 33%;
+  display: inline-block;
+  border-bottom: 1px solid #5dade2;
+}
+
+.short-input .cvv {
+  float: right;
+}
+
+.content-payment p {
+  font-size: 75%;
+  text-align: left;
+  padding: 5vh 0 5vh 5%;
+  color: #e31d1e;
+}
+
+.content-payment button:hover {
+  color: #fff;
+}
+
+.content-payment button {
+  margin-bottom: 5vh;
+  width: 60%;
+  color: #fff;
+}
+
+/* List CSS*/
+
+.list-page-tab .tab-item-active {
+  background: #298db9;
+}
+
+.flag img {
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  /*margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 2%;*/
+}
+
+.flag span {
+  font-size: small;
+  vertical-align: super;
+}
+
+.list-btn-bar {
+  padding: 2% 5% 2% 5%;
+  background: #ff3939;
+}
+
+.list-btn-bar a {
+  border: 1px solid #fff;
+  color: #fff;
+  background: transparent;
+}
+
+.list-btn-bar a:hover {
+  color: #fff;
+}
+
+.list-btn-bar .active-btn {
+  color: #000;
+  background: #fff;
+}
+
+.list-btn-bar .active-btn:hover {
+  color: #000;
+}
+
+.list-page-list {
+  width: 100%;
+  border-left: 0;
+  border-right: 0;
+}
+
+.list-page-list .date {
+  font-size: 10px;
+  float: right;
+  margin-top: 3px;
+}
+
+.list-page-list img {
+  border: 3px solid #5dade2;
+  border-radius: 50%;
+}
+
+.list-page-list p {
+  font-size: 0.8em;
+}
+
+.ion-star {
+  font-size: 12px;
+  color: #ffbc54;
+}
+
+/* Call CSS*/
+div.call-header {
+  width: 100%;
+  background: url("../img/call-bg.jpg");
+  display: table;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.when-show-msg-box {
+  max-height: 50%;
+}
+
+div.caller-option-box, div.caller-img-box {
+  text-align: center;
+  display: table-cell;
+  vertical-align: bottom;
+  height: 100%;
+}
+
+div.caller-option-box {
+  width: 65%;
+}
+
+div.caller-img-box {
+  width: 35%;
+}
+
+.call-option {
+  border-radius: 6px;
+  width: 85%;
+  background: rgba(0, 0, 0, 0.5);
+  margin-bottom: 5%;
+  margin-left: 7%;
+}
+
+.caller-img-box img {
+  border: 2px solid #fff;
+  border-radius: 10px;
+  width: 70%;
+  height: 10%;
+  margin-bottom: 5%;
+}
+
+.call-option span {
+  color: #fff;
+  display: inline-block;
+  font-size: 15px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+.call-option .ion-videocamera, .ion-ios-mic {
+  margin-top: 10px;
+  vertical-align: top;
+  color: #fff;
+  margin-left: 5%;
+  font-size: 20px !important;
+  display: inline-block;
+}
+
+.call-option .ion-ios-telephone {
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  transform: rotate(135deg);
+  color: red;
+  margin-top: 2px;
+  margin-left: 10%;
+  font-size: 40px !important;
+  display: inline-block;
+}
+
+.call-time-2 {
+  font-size: 36px;
+  color: #73BFF1;
+}
+
+.call-round-btn {
+  margin-bottom: 7%;
+}
+
+.call-round-btn button {
+  margin: 10% 1% 0 1%;
+  border-radius: 50%;
+  background: #73BFF1;
+  color: #fff;
+  min-height: 40px;
+  min-width: 40px;
+  border: none;
+}
+
+.call-hangup-btn {
+  border-radius: 5px !important;
+  margin-top: 13% !important;
+  width: 64%;
+}
+
+.call-round-btn button::before {
+  font-size: 25px;
+  line-height: 32px;
+}
+
+.call-round-btn-with-msg button {
+  margin: 10% 1% 5% 1%;
+  border-radius: 50%;
+  background: #73BFF1;
+  color: #fff;
+  min-height: 40px;
+  min-width: 40px;
+  border: none;
+}
+
+.call-round-btn-with-msg button::before {
+  font-size: 25px;
+  line-height: 32px;
+}
+
+.call-hangup-btn-with-msg {
+  border-radius: 5px !important;
+  margin-top: 13% !important;
+  width: 30%;
+  min-height: 10px !important;
+  max-height: 22px !important;
+}
+
+.call-body {
+  padding: 0 0 5% 5%;
+}
+
+.me, .you {
+  display: table;
+}
+
+.me .col-20, .you .col-20 {
+  width: 20%;
+  display: table-cell;
+  vertical-align: bottom;
+}
+
+.me .col-80, .you .col-80 {
+  vertical-align: bottom;
+  width: 80%;
+  display: table-cell;
+}
+
+.me .col-80 .card {
+  background: #5dade2;
+  color: #fff;
+  border-radius: 30px 30px 0 30px;
+}
+
+.you .col-80 .card {
+  border-radius: 30px 30px 30px 0;
+  background: #edeff0;
+  color: #000;
+}
+
+.you img, .me img {
+  border-radius: 100%;
+  height: 55px;
+  width: 55px;
+}
+
+.you .col-80 .card, .me .col-80 .card {
+  font-size: medium;
+  font-family: inherit;
+  padding: 5% 7% 5% 7%;;
+}
+
+.you .col-20 .card, .me .col-20 .card {
+  padding-bottom: 0;
+  border: none;
+  box-shadow: none;
+  background: transparent;
+}
+
+/* Calling CSS*/
+
+.calling-bg {
+  background: #3598db;
+}
+
+.calling-content {
+  text-align: center;
+  padding-top: 10vh;
+  color: #fff;
+}
+
+.calling-content .p-name {
+  padding-top: 5vh;
+  font-size: xx-large;
+}
+
+.calling-content .p-calling {
+  padding-top: 1vh;
+  font-size: large;
+}
+
+.caller-img img {
+  border-radius: 50%;
+  height: 30vh;
+  width: 30vh;
+}
+
+.round-btn button {
+  margin: 8vh 2.5% 0 2.5%;
+  border-radius: 50%;
+}
+
+.hangup-btn {
+  border-radius: 10px;
+  margin: 10vh 0 2vh 0;
+  width: 55%;
+}
+
+.button.hangup-btn:before {
+  font-size: 50px !important;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+.button.rotate-phone:before {
+  line-height: 20px;
+  /*font-size: 50px !important;*/
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+.button.rotate-phone-with-msg:before {
+  line-height: 42px;
+  /*margin-top: 11%;*/
+  font-size: 50px !important;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+/* Login-1 CSS*/
+.login-1 {
+  overflow: auto;
+  position: relative;
+  display: block;
+  height: 100%;
+  background: url("../img/splash.jpg");
+  background-size: 100% 100%;
+}
+
+.login-1-data-content {
+  height: 100%;
+  padding-bottom: 0;
+  position: absolute;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+
+}
+
+.login-1-data-content img {
+  margin-top: 10vh;
+  width: 20vh;
+  height: 20vh;
+}
+
+.login-1-data-content .img-2 {
+  margin-top: 3vh;
+}
+
+.login-1-data-content p {
+  font-weight: lighter;
+  font-size: 5vh;
+  /* padding: 3%;*/
+  padding-bottom: 0;
+  color: #fff;
+}
+
+.login-1-data-content span {
+  font-weight: lighter;
+  font-size: 2vh;
+}
+
+.login-1-data-content .button-bar {
+  padding: 5vh 5% 5vh 5%;
+}
+
+.button-bar .login-btn {
+  margin-right: 2px;
+}
+
+.button-bar .sign-btn {
+  color: #1798db;
+  margin-left: 2px;
+}
+
+.login-1-data-content .span-2 {
+  display: block;
+  padding-bottom: 5%;
+}
+
+.login-1-data-content a {
+  font-weight: normal;
+  color: #1798db;
+  text-decoration: none;
+}
+
+/* Login-2 CSS*/
+.login-2 {
+  position: relative;
+  height: 100%;
+  overflow: auto;
+  display: block;
+  background: url("../img/splash.jpg");
+  background-size: 100% 100%;
+}
+
+.login-2-data-content {
+  height: 100%;
+  padding-bottom: 0%;
+  position: absolute;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+
+}
+
+.login-2-data-content img {
+  margin-top: 10vh;
+  width: 20vh;
+  height: 20vh;
+}
+
+.login-2-full-input-2 {
+  padding: 0 5% 0 5%;
+  text-align: center;
+}
+
+.login-2-full-input-2 input {
+  color: #ffffff;
+  background: transparent;
+  margin-top: 4vh;
+  border: none;
+  border-bottom: 1px solid #5dade2;
+  display: inline-block;
+  width: 90%;
+}
+
+.login-2-forgot-password {
+  font-weight: lighter;
+  padding: 2vh 0 2vh 0;
+}
+
+.fb-btn {
+  padding: 0 5% 0 4%;
+}
+
+.new-user {
+  font-weight: lighter;
+  padding: 2vh 0 2vh 0;
+}
+
+.login-2-data-content .span-2 {
+  display: block;
+  padding-bottom: 5vh;
+}
+
+.login-2-data-content a {
+  font-weight: normal;
+  color: #1798db;
+  text-decoration: none;
+}
+
+/*SignUp CSS*/
+.sign-up-temp {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  display: block;
+  background: url("../img/splash.jpg");
+  background-size: 100% 100%;
+}
+
+.sign-data-content {
+  position: absolute;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+
+}
+
+.sign-data-content img {
+  margin-top: 10vh;
+  width: 20vh;
+  height: 20vh;
+}
+
+.sign-full-input-3 {
+  padding: 0 5% 0 5%;
+  text-align: center;
+}
+
+.sign-full-input-3 input {
+  color: #ffffff;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #5dade2;
+  display: inline-block;
+  width: 90%;
+}
+
+.sign-placeholder-icon {
+  font-size: 20px;
+  margin-right: 2%;
+  color: #cecece;
+}
+
+.sign-full-input-3 label {
+  background: transparent;
+  border: none;
+}
+
+.sign-profile-pic {
+  margin-top: 2vh;
+  border: 5px solid #5dade2;
+  width: 120px;
+  height: 120px;
+  display: inline-block;
+  border-radius: 100%;
+  background: url("../img/profile.jpg");
+  background-size: 100% 100%;
+}
+
+.sign-profile-pic a {
+  margin-top: 15%;
+  display: block;
+  font-size: 9px;
+}
+
+.sign-profile-pic b {
+  padding: 0 0 0 0;
+  margin-top: 40%;
+  font-size: 100px;
+  color: #5dade2;
+}
+
+.sign-profile-pic b:hover {
+  color: #5dade2;
+}
+
+.sign-up-btn-1 {
+  padding-top: 5vh;
+}
+
+.sign-up-btn-1 button {
+  width: 50%;
+}
+
+.sign-bottom-btn {
+  padding: 2vh 0 2vh 0;
+  color: #cac6c0;
+}
+
+.sign-bottom-btn button {
+
+}
+
+.sign-bottom-btn span {
+  display: inline-block;
+  margin-top: 5px;
+}
+
+/* Review Page CSS*/
+.review-had {
+  height: 40vh;
+  text-align: center;
+  background: #5dade2;
+  border-bottom: 5px solid #1276ab;
+}
+
+.review-had p {
+  color: #ffffff;
+  font-size: 22px;
+  /* margin-top: 6px;*/
+  padding: 10px 0 7% 0;
+}
+
+.review-img-box {
+  margin-top: 5vh;
+  height: 25vh;
+  width: 25vh;
+  display: inline-block;
+  background: darkgreen;
+  border: 6px solid #1276ab;
+  border-radius: 100%;
+}
+
+.review-img-box img {
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+}
+
+.review-body {
+  /* height: 60vh;*/
+  color: #5dade2;
+  text-align: center;
+  padding-bottom: 5vh;
+}
+
+.review-body h1 {
+  color: #e31d1e;
+  /*height: 10%;*/
+  font-size: 12vh;
+  font-family: initial;
+}
+
+.review-body input {
+  margin-top: 5vh;
+  border: none;
+  border-bottom: 1px solid #5dade2;
+  display: inline-block;
+  width: 75%;
+}
+
+.review-body button {
+  width: 75%;
+  margin-top: 8vh;
+  font-size: x-large;
+}
+
+ul.rating li {
+  display: inline;
+  border: 0px;
+  color: #ffbc54;
+  background: none;
+  padding: 0px 5px;
+}
+
+ul.rating li i {
+  font-size: 40px;
+}
+
+/* Profile CSS*/
+ion-content {
+  overflow: auto;
+}
+
+.profile-had {
+  /*height: 45vh;*/
+  color: #ffffff;
+  border-bottom: 5px solid #1276ab;
+  text-align: center;
+  background: #5dade2;
+}
+
+.profile-had b {
+  display: block;
+  font-size: 22px;
+  /*margin-top: -0vh;*/
+  /* padding: 0 0 7% 0;*/
+}
+
+.profile-img-box {
+  margin-top: -3vh;
+  height: 25vh;
+  width: 25vh;
+  display: inline-block;
+  border: 6px solid #1276ab;
+  border-radius: 100%;
+}
+
+.profile-img-box img {
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+}
+
+.profile-icon-1 {
+  text-align: right;
+}
+
+.profile-icon-1 a, .profile-icon-2 a {
+  color: #fff;
+  margin-top: 12vh;
+}
+
+.profile-icon-2 {
+  text-align: left;
+}
+
+.profile-btn-bar {
+  width: 66%;
+}
+
+.profile-btn-bar .active {
+  background: none;
+  border-bottom: 2px solid #ff3939;
+}
+
+.profile-btn-bar button {
+  background: none;
+  color: #000000 !important;
+}
+
+.profile-detail div {
+  border: none;
+  margin: 0 !important;
+  /*padding: 10px;*/
+}
+
+.profile-detail b {
+  font-size: 2vh;
+  font-weight: normal;
+  color: #000;
+}
+
+.profile-detail-key {
+  padding-left: 15%;
+}
+
+.certificate-box {
+  border: 1px solid #ccc;
+  border-right: none;
+  border-left: none;
+}
+
+.certificate-box img {
+  width: 55px;
+  height: 60px;
+}
+
+.certificate-box .col-40 {
+  font-size: 18px;
+  padding: 0 0 0 12%
+}
+
+.voice-box .voice-text {
+  font-size: 18px;
+  padding: 0 0 0 12%
+}
+
+.profile-language {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 2vh 0% 0 0%;
+}
+
+.profile-language a {
+  font-size: 15px;
+  color: red;
+  padding: 0 0 0 0;
+}
+
+.profile-language span {
+  color: #5dade2;
+}
+
+.lang-profile-detail {
+  color: #000000;
+  text-align: justify;
+  font-size: smaller;
+  font-style: italic;
+  padding: 0 5% 1vh 5%;
+}
+
+.profile-2-list {
+  width: 100%;
+  border-left: 0;
+  border-right: 0;
+}
+
+.profile-2-list .date {
+  font-size: 10px;
+  float: right;
+  margin-top: 3px;
+}
+
+.profile-2-list img {
+  border: 3px solid #5dade2;
+  border-radius: 50%;
+}
+
+.profile-2-list p {
+  font-size: 0.8em;
+}
+
+.ion-star {
+  font-size: 12px;
+  color: #ffbc54;
+}
+
+/* Search CSS*/
+
+.search-header {
+  width: 100%;
+ /* height: 45vh;*/
+  /*  height:35%;*/
+  text-align: center;
+}
+
+.item {
+  width: 100%;
+}
+
+.search-header img {
+  margin-left: 25%;
+  width: 20px;
+}
+
+.search-header {
+  color: #5dade2;
+  border: none;
+  outline: none;
+}
+
+.select {
+  color: #5dade2;
+  border: none;
+  outline: none;
+}
+
+.r-1 {
+  margin: 5vh;
+  display: inline-block;
+  /* margin: 5vh 0 8% 0;*/
+  /*margin: 10px 0 10px 0;*/
+  border-bottom: 1px solid #ccc;
+  width: 70%;
+}
+
+.r-1 select {
+  float: right;
+}
+
+.r-1 .text {
+  float: left;
+}
+
+.search-header button {
+  width: 50%;
+}
+
+.search-body {
+  /*height: 65%;*/
+  /*padding: 5vh 0 0 0;*/
+}
+
+.s-btn-bar {
+  width: 100%;
+}
+
+.s-btn-bar .active {
+  background: none;
+  border-bottom: 2px solid #ff3939;
+}
+
+.s-btn-bar button {
+  font-size: 12px;
+  background: none;
+  color: #5dade2 !important;
+}
+
+.search-list {
+  width: 100%;
+  border-left: 0;
+  border-right: 0;
+}
+
+.search-list .date {
+  font-size: 10px;
+  float: right;
+  margin-top: 3px;
+}
+
+.item-thumbnail-left img {
+  max-height: 70px;
+  max-width: 70px;
+  height: 50%;
+
+}
+
+.search-list img {;
+  border: 2px solid #5dade2;
+  border-radius: 50%;
+}
+
+.search-list p {
+  font-size: 0.8em;
+}
+
+.ion-star {
+  font-size: 12px;
+  color: #ffbc54;
+}
+
+/*Rating Star CSS*/
+ul.rating li {
+  display: inline;
+  border: 0px;
+  color: #ffbc54;
+  background: none;
+  padding: 0px 5px;
+}
+
+ul.rating li i {
+  font-size: 40px;
+}

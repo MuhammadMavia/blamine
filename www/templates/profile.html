@@ -1,0 +1,51 @@
+<ion-view title="profile">
+  <ion-content class="has-bouncing" style="overflow: auto">
+    <div class="profile-had">
+
+      <div style="width: 98%">
+        <!--<ion-nav-bar>
+          <ion-nav-back-button></ion-nav-back-button>
+        </ion-nav-bar>-->
+
+        <a ui-sref="app.list.all" style="float: left" class="button button-icon button-positive icon ion-ios-arrow-back"></a>
+        <a style="float: right" class="button button-icon icon ion-android-favorite"
+           ng-class="{'favorite-btn':favorite,'button-positive':!favorite}"
+           ng-click="favorite = !favorite"></a>
+      </div>
+     <!-- -->
+
+      <div class="row" style="padding: 0">
+        <span class="col-25 profile-icon-1" ui-sref="payment-method">
+          <a class="button button-icon icon ion-ios-telephone"></a>
+        </span>
+
+        <div class="col-50">
+          <div class="profile-img-box">
+            <img src="./img/man.jpg">
+          </div>
+        </div>
+
+        <span class="col-25 profile-icon-2">
+          <a class="button button-icon icon ion-calendar"></a>
+        </span>
+      </div>
+
+      <b>Kevin</b>
+
+      <p>
+        96% Positive Rating(25) <br>
+        Verified Interpret
+      </p>
+    </div>
+    <div class="profile-body">
+      <div class="button-bar profile-btn-bar">
+        <button ui-sref-active="active" class="button active" ui-sref="profile.profile-1">About</button>
+        <button ui-sref-active="active" class="button " ui-sref="profile.profile-2">Reviews</button>
+      </div>
+      <ui-view name="profileContent"></ui-view>
+    </div>
+
+  </ion-content>
+</ion-view>
+
+
